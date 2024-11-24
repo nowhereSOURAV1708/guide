@@ -1,0 +1,185 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="com.example.guide.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JOTIRLINGAM"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:textColor="@color/material_dynamic_neutral99"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp">
+        <ImageView
+            android:id="@+id/pic0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Somnath Temple"
+            app:srcCompat="@drawable/gettyimages_520958764_612x612"
+
+            tools:ignore="MissingConstraints"/>
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="mallikajunam Temple"
+            app:srcCompat="@drawable/oip__1_"
+            android:alpha="0"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Mahakaleshwar Temple"
+            app:srcCompat="@drawable/mahakal"
+            android:alpha="0"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="omkareshwar Temple"
+            app:srcCompat="@drawable/om"
+            android:alpha="0"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="kedarnath Temple"
+            app:srcCompat="@drawable/kedar"
+            android:alpha="0"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="bhimashankar Temple"
+            app:srcCompat="@drawable/bhim"
+            android:alpha="0"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/k"
+            tools:ignore="MissingConstraints"
+            android:alpha="0"
+            />
+        <ImageView
+            android:id="@+id/pic7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="trm Temple"
+            app:srcCompat="@drawable/trm"
+            android:alpha="0"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="nageshwer Temple"
+            app:srcCompat="@drawable/nag"
+            android:alpha="0"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/b"
+            tools:ignore="MissingConstraints"
+            android:alpha="0"
+            tools:layout_editor_absoluteX="0dp" />
+        <ImageView
+            android:id="@+id/pic10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/s"
+            tools:ignore="MissingConstraints"
+            android:alpha="0"
+            />
+
+        <ImageView
+            android:id="@+id/pic11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Grishneshwar Temple"
+            app:srcCompat="@drawable/grishneshwar"
+            android:alpha="0"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:text="somnath"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/pic0"
+            app:layout_constraintStart_toStartOf="@+id/pic0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:id="@+id/btnprev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@android:drawable/ic_media_rew" />
+
+        <ImageButton
+            android:id="@+id/btnnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@android:drawable/ic_media_ff" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/aiGuideButton"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="guide" />
+
+</LinearLayout>
